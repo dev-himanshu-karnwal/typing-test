@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    /* margin: 0; */
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: rgb(238, 174, 202);
+    background: linear-gradient(303deg, rgba(238, 174, 202, 1) 26%, rgba(148, 187, 233, 1) 77%);
+}
+
+.container {
+    width: 80vmin;
+    padding: 50px 30px;
+    background: rgb(238, 174, 202);
+    background: linear-gradient(303deg, rgba(148, 187, 233, 1) 26%, rgba(238, 174, 202, 1) 77%);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 19px 25px rgba(0, 0, 0, 0.22);
+}
+
+.stats {
+    font-size: 18px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats span {
+    font-weight: 600;
+}
+
+#text {
+    text-align: justify;
+    margin: 50px 0 30px 0;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 5px;
+    border: 6px inset rgba(148, 187, 233, 1);
+    font-size: 16px;
+}
+
+button {
+    margin-top: 20px;
+    background-color: rgb(187, 100, 138);
+    color: black;
+    border: 4px outset rgba(148, 187, 233, 1);
+    cursor: pointer;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.result {
+    margin-top: 40px;
+}
+
+.result h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wrapper span {
+    font-weight: 600;
+}
+
+.success {
+    background-color: lightgreen;
+}
+
+.fail {
+    background-color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 3rem;
+    color: #0d0b95;
+    text-shadow: 4px 4px 4px #cb35b6;
+    text-align: center;
+}
